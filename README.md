@@ -1,20 +1,20 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Welcome to LangChain Project
 
-# Getting Started
+## Introduction
+
+Current scope of the project is to utilize the power of LangChain to test various puplicly available NLP models and compare their performance on various tasks. Data will be collected from various sources such as LinkedIn, Twitter, Reddit, etc. and will be used to build a profile of the user. 
+
+This includes:
+- ChatGPT
+
+Date: 2024-06-23
+
+## Getting Started
+
+**LangChain** is a project that aims to create a platform for language learning. The platform will be a web application that will allow users to learn a language by reading and listening to texts in that language. The platform will also provide tools for users to practice speaking and writing in the language they are learning.
+
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1.	Scraping data from various sources
+    1.    LinkedIn (ProxyCurl)
+2.	LangChain API
+3.	Sentiment Analysis

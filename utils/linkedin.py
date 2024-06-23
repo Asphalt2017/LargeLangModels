@@ -1,47 +1,77 @@
-import os
 import requests
-from dotenv import load_dotenv
-
-load_dotenv()
+import os
 
 
-def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
-    """scrape information from LinkedIn profiles,
-    Manually scrape the information from the LinkedIn profile"""
+def scrape_linkedin_profile(url : str, *, mock : bool = False) -> requests.models.Response:
+    """Scrapes a LinkedIn profile and returns the data. 
 
-    if mock:
-        linkedin_profile_url = "https://gist.githubusercontent.com/emarco177/0d6a3f93dd06634d95e46a2782ed7490/raw/78233eb934aa9850b689471a604465b188e761a0/eden-marco.json"
-        response = requests.get(
-            linkedin_profile_url,
-            timeout=10,
-        )
+    Args:
+        url (str): The LinkedIn profile URL to scrape. 
+        mock (bool): If True, the function will return a mock response.
+
+    Returns:
+        requests.models.Response: The response object from the request. 
+    """
+
+    print(f"Scraping LinkedIn profile: {url}")
+    if mock :
+        data = requests.get(url, timeout=10).json()
+
     else:
-        api_endpoint = "https://nubela.co/proxycurl/api/v2/linkedin"
-        header_dic = {"Authorization": f'Bearer {os.environ.get("PROXYCURL_API_KEY")}'}
+        api_key = os.environ.get('PROXYCURL_API_KEY')
+        headers = {'Authorization': 'Bearer ' + api_key}
+        api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
+        params = {
+            #'twitter_profile_url': 'https://x.com/RoudraSaha',
+            #'facebook_profile_url': 'https://www.facebook.com/roudra.saha.5',
+            'linkedin_profile_url': url,
+            'extra': 'include',
+            'github_profile_id': 'include',
+            'facebook_profile_id': 'include',
+            'twitter_profile_id': 'include',
+            'personal_contact_number': 'include',
+            'personal_email': 'include',        
+            'inferred_salary': 'include',
+            'skills': 'include',
+            'use_cache': 'if-present',
+            'fallback_to_cache': 'on-error',
+        }   
+
         response = requests.get(
             api_endpoint,
-            params={"url": linkedin_profile_url},
-            headers=header_dic,
-            timeout=10,
+            params=params,
+            headers=headers
         )
 
-    data = response.json()
-    data = {
-        k: v
-        for k, v in data.items()
-        if v not in ([], "", "", None)
-        and k not in ["people_also_viewed", "certifications"]
-    }
-    if data.get("groups"):
-        for group_dict in data.get("groups"):
-            group_dict.pop("profile_pic_url")
+        data = response.json()
 
+    data = { 
+        k:v for k,v in data.items() 
+        if v not in [None, [], ""] 
+        and k not in [
+            'profile_pic_url',
+            'background_cover_image_url',
+            'people_also_viewed', 
+            'certifications', 
+            #'education', 
+            #'experience', 
+            'interests', 
+            #'languages',
+            #'organizations', 
+            #'patents', 
+            #'projects', 
+            #'publications', 
+            'recommendations', 
+            #'skills', 
+            #'volunteering',
+            'websites', 
+            #'awards', 
+            #'courses',
+            'activities',
+            'groups'  ,
+            'inferred_salary'
+                        ]
+    }
+        
     return data
 
-
-if __name__ == "__main__":
-    print(
-        scrape_linkedin_profile(
-            linkedin_profile_url="https://www.linkedin.com/in/eden-marco/",
-        )
-    )

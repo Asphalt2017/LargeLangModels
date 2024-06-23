@@ -1,0 +1,390 @@
+{
+    "public_identifier": "roudra-saha",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/roudra-saha/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240623%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240623T103830Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=e8792d5ee578daf34162a5e40480bf4e257952d2f203fde2f7188a8e2d5106a0",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/roudra-saha/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240623%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240623T103830Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=50a3277de529a5a33ac303effd931bd0910ef6bc851f4022714b6b3f1ab062e9",
+    "first_name": "Roudra",
+    "last_name": "Saha",
+    "full_name": "Roudra Saha",
+    "follower_count": null,
+    "occupation": "MLOps Researcher at aixprocess GmbH",
+    "headline": "MLOPs Engineer Intern at Aixprocess",
+    "summary": "I consider myself a computer vision enthusiast, quick learner, self-motivated and risk-taker person. My strength lies in my creativity and dedication. I believe in the bigger the challenge is more fun in solving it. My dream is to make a collaborative workspace between humans and machines. \n\nStrong Programming skills in various languages (Python, MATLAB, JavaScript) with proficiency in Python.\nMy codes are published on my git repository https://github.com/Asphalt2017",
+    "country": "DE",
+    "country_full_name": "Germany",
+    "city": "Aachen",
+    "state": "Nordrhein-Westfalen",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2021
+            },
+            "ends_at": null,
+            "company": "aixprocess GmbH",
+            "company_linkedin_profile_url": "https://de.linkedin.com/company/aixprocess-gmbh",
+            "company_facebook_profile_url": null,
+            "title": "MLOps Researcher",
+            "description": "Assisting in the incorporation of Machine Learning Operation (MLOps) tools in \nthe production pipeline\n\u2022 Designed base framework for distributed servers for Apache Airflow using \nCelery Executor with PostgresSQl as meta-database and REDIS as message \nbroker\n\u2022 Building TensorFlow-extended module to work with the orchestrated environment",
+            "location": "Aachen, North Rhine-Westphalia, Germany",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/aixprocess-gmbh/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240623%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240623T103833Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=a83b2328ffb48c46d5d42605683653edada6a4ad37d191cbc1f3096e14a68dd7"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 7,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 1,
+                "year": 2022
+            },
+            "company": "corvitac GmbH",
+            "company_linkedin_profile_url": "https://de.linkedin.com/company/corvitac",
+            "company_facebook_profile_url": null,
+            "title": "Computer Vision Intern",
+            "description": "Designed data pipeline for Object detection API, to train Faster-RCNN and \nSingle Shot-Multibox Detector to detect animals and humans.\n\u2022 Generated synthetic images of animals via Style GAN 3. Also created GAN \npipeline for cloud training.\n\u2022 Trained and compiled SSDs models for tpu based edge devices\n\u2022 Engineered and converted dataset in various formats for respective \nalgorithms.",
+            "location": "Hannover, Lower Saxony, Germany",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/corvitac/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240623%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240623T103833Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1e4538db1a80500b2ee99f0d816a3bbe01d5a29c6f6ab7fe40914ebbdfeb9551"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2017
+            },
+            "ends_at": {
+                "day": 28,
+                "month": 2,
+                "year": 2019
+            },
+            "company": "Eureka (Instruments) Industries Pvt. Ltd.",
+            "company_linkedin_profile_url": null,
+            "company_facebook_profile_url": null,
+            "title": "Design Engineer",
+            "description": "\u2022 Developed automated testing of newly extruded PVC pipes using\nlaser scanning for varying thickness and laterals cracks and\nsubsequent error causes and possible solutions\n\u2022 Data-Pre-processing, data augmentation and visualization using\nPandas (Python) framework.\n\u2022 Designing ,ensuring conformance with standards and\nsubsequent m",
+            "location": "Delhi, India",
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 6,
+                "year": 2016
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2016
+            },
+            "company": "Bharat Heavy Electricals Limited",
+            "company_linkedin_profile_url": "https://de.linkedin.com/company/bhel",
+            "company_facebook_profile_url": null,
+            "title": "Research Intern",
+            "description": "\u2022 Assisted research and development in the formability test of Iron\nand Steel.\n\u2022 Worked in the management of process control station of plate\ninsulator.",
+            "location": "Jagdishpur",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bhel/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240623%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240623T103833Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e691577ad61b407ae72c361d354bf989a37e3ee04a5bc317469bbd4a75000772"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2019
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2021
+            },
+            "field_of_study": "Robotics System Engineering",
+            "degree_name": "Master of Science - MS",
+            "school": "RWTH Aachen University",
+            "school_linkedin_profile_url": "https://de.linkedin.com/school/rwth-aachen-university/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://media-exp1.licdn.com/dms/image/C510BAQEATKN6xf-EkA/company-logo_100_100/0/1519856450337?e=1655337600&v=beta&t=_ZlrUmrnl_p1o_dz9V3Hy3BpPh7RH1sVFxzIZWgNZAc",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2013
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2017
+            },
+            "field_of_study": "Mechanical Engineering",
+            "degree_name": "Bachelor of Technology",
+            "school": "FEROZE GANDHI INSTITUTE OF ENGG AND TECHNOLOGY , RAEBARELI",
+            "school_linkedin_profile_url": "https://de.linkedin.com/school/feroze-gandhi-institute-of-engg-and-technology-raebareli/",
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": "https://media-exp1.licdn.com/dms/image/C560BAQEISCQ1stjDMw/company-logo_100_100/0/1589630492724?e=1655337600&v=beta&t=Ai6k7tOck9co5V1xuuAJwUFtmExNJFL4u7F5Gac_fyI",
+            "grade": null,
+            "activities_and_societies": null
+        }
+    ],
+    "languages": [],
+    "accomplishment_organisations": [],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
+    "accomplishment_patents": [],
+    "accomplishment_courses": [],
+    "accomplishment_projects": [],
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 3,
+                "year": 2021
+            },
+            "ends_at": null,
+            "name": "Deep Learning A-Z\u2122: Hands-On Artificial Neural Networks",
+            "license_number": "UC-398ca989-5c6d-4a88-9934-150e80942f77",
+            "display_source": "www.udemy.com",
+            "authority": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-398ca989-5c6d-4a88-9934-150e80942f77/"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 3,
+                "year": 2021
+            },
+            "ends_at": null,
+            "name": "Deep Learning and Computer Vision A-Z\u2122: OpenCV, SSD & GANs",
+            "license_number": "UC-8c039f17-b385-47cc-812c-85cbdf6c8ac8",
+            "display_source": "www.udemy.com",
+            "authority": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-8c039f17-b385-47cc-812c-85cbdf6c8ac8/"
+        }
+    ],
+    "connections": 500,
+    "people_also_viewed": [
+        {
+            "link": "https://de.linkedin.com/in/benjamin-stremmel-3aa720201",
+            "name": "Benjamin Stremmel",
+            "summary": "In Ausbildung/Studium: Universit\u00e4t Siegen",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://de.linkedin.com/in/tanuj-joshi-22668995",
+            "name": "Tanuj Joshi",
+            "summary": "Computer Vision Intern, Daimler AG | M.Sc. Robotic Systems",
+            "location": "Stuttgart"
+        },
+        {
+            "link": "https://de.linkedin.com/in/mohammad-eibo-9331611a1",
+            "name": "Mohammad Eibo",
+            "summary": "Student(in), Universit\u00e4t Siegen",
+            "location": "Hagen"
+        },
+        {
+            "link": "https://de.linkedin.com/in/achyuth-attravanam-474422b0",
+            "name": "Achyuth Attravanam",
+            "summary": "Masters in Computational Science in Engineering",
+            "location": "Braunschweig"
+        },
+        {
+            "link": "https://de.linkedin.com/in/kenza-toukabri-9740a2195",
+            "name": "kenza Toukabri",
+            "summary": "\u00c9tudiant \u00e0 Universit\u00e4t Siegen",
+            "location": "Frankfurt/Rhein-Main"
+        },
+        {
+            "link": "https://de.linkedin.com/in/adriankerber",
+            "name": "Adrian Kerber",
+            "summary": "Helping business leaders create value with their vision at heart",
+            "location": "D\u00fcsseldorf"
+        },
+        {
+            "link": "https://in.linkedin.com/in/angadsingh-as",
+            "name": "ANGAD SINGH",
+            "summary": "Student at Lovely Professional University",
+            "location": "Jalandhar"
+        },
+        {
+            "link": "https://www.linkedin.com/in/mraghavaadarsh",
+            "name": "Raghava Adarsh Mandarapu",
+            "summary": "Devops Engineer at TIBCO",
+            "location": "Apex, NC"
+        },
+        {
+            "link": "https://de.linkedin.com/in/daniel-morez-565b041b1",
+            "name": "Daniel Morez",
+            "summary": "Bei UTS",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://de.linkedin.com/in/donia-ahmed-113537199",
+            "name": "Donia Ahmed",
+            "summary": "Chemistry MSc student",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://in.linkedin.com/in/anirudh-allumuru-9b092370",
+            "name": "Anirudh Allumuru",
+            "summary": "IT Consultant at Sun Energy Systems Pvt Ltd",
+            "location": "Visakhapatnam und Umgebung"
+        },
+        {
+            "link": "https://de.linkedin.com/in/christian-weber-13a111bb",
+            "name": "Christian Weber",
+            "summary": "Researcher at the Institute for Knowledge Based Systems and Knowledge Management",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://de.linkedin.com/in/volker-jussen-79a859155",
+            "name": "Volker Jussen",
+            "summary": "Prozess- und Qualit\u00e4tsmanager f\u00fcr Key Accounts  bei BIKAR-METALLE GmbH",
+            "location": "Hamburg und Umgebung"
+        },
+        {
+            "link": "https://de.linkedin.com/in/rabin-pradhan-b17967153",
+            "name": "Rabin Pradhan",
+            "summary": "Simulation Engineer at Bosch, Abstatt",
+            "location": "Abstatt"
+        },
+        {
+            "link": "https://de.linkedin.com/in/ing-yasar-akar-bb66b219a",
+            "name": "Ing. Yasar Akar",
+            "summary": "Master-Student bei International Production Engineering and Management IPEM der Universit\u00e4t Siegen",
+            "location": "Region K\u00f6ln/Bonn"
+        },
+        {
+            "link": "https://de.linkedin.com/in/abdelmasseh-rofeal-470311177",
+            "name": "Abdelmasseh Rofeal",
+            "summary": "Associate Researcher at BioNTech SE",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://de.linkedin.com/in/ahmet-ceritlioglu-07634b222",
+            "name": "Ahmet Ceritlioglu",
+            "summary": "Consistency is progress",
+            "location": "Siegen"
+        },
+        {
+            "link": "https://in.linkedin.com/in/vishnu-v-chandran-a457259b",
+            "name": "VISHNU V CHANDRAN",
+            "summary": "#Mechanical Engineer#Aeromechanical#Mechanical Analysis #Simulation #Design",
+            "location": "Bengaluru"
+        }
+    ],
+    "recommendations": [],
+    "activities": [
+        {
+            "title": "International Women\u2019s Day: aixprocess Honours Stefanie Riske, Process Engineer  March 8 is International Women\u2019s Day, and aixprocess would like to\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Beliebt bei Roudra Saha"
+        },
+        {
+            "title": "Engineering at its finest!Credit: Brick Experiment Channel#technology #engineering #innovation",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Beliebt bei Roudra Saha"
+        },
+        {
+            "title": "Machine Writing!Just a couple of stepper motors and bunch of programming! This simple device is able to replicate complex figures.This low cost 2D\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Beliebt bei Roudra Saha"
+        }
+    ],
+    "similarly_named_profiles": [],
+    "articles": [],
+    "groups": [
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4E07AQFtFS-Hxz1yIA/group-logo_image-shrink_92x92/0/1537110053959?e=1647594000&v=beta&t=FuninzBDPSn63HNZ6WvGc0KCvI0BIfDrpF6mv-XcEg8",
+            "name": "Mechanical Design Engineers - Join 260,000+ engineering professionals now!",
+            "url": "https://www.linkedin.com/groups/2666729"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C5607AQEsoEc-ESVfYg/group-logo_image-shrink_92x92/0/1631001073765?e=1647594000&v=beta&t=ddiE69Rs_u4QQIWgfFHBoG_lw0ChGimBf61oEID1ilM",
+            "name": "DevOps | MLOps | SRE | GitOps Discussions",
+            "url": "https://www.linkedin.com/groups/6585254"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQE4v-TzJPWtyA/group-logo_image-shrink_92x92/0/1644933850402?e=1647594000&v=beta&t=3gGN_TBUp3Ju3di-DTcvAVGF7F8m8nwRrA4ILt_KaWw",
+            "name": "RobotGeeks",
+            "url": "https://www.linkedin.com/groups/12444926"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQHJC9Vo1682Zg/group-logo_image-shrink_92x92/0/1630999926280?e=1647594000&v=beta&t=OU7Q7XdNiW0qSDBhxU8hHUDfgaY0Z76RVZdqc845lH0",
+            "name": "Practical MLOps & DevOps & DataOps",
+            "url": "https://www.linkedin.com/groups/801927"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQFmgWzIhSy-Jw/group-logo_image-shrink_200x200/0/1631361323766?e=1647594000&v=beta&t=xQGCGzeQYqyspiUS60JY6VJvNzRcENCErUU5mnPXcpU",
+            "name": "Computer Vision and Pattern Recognition",
+            "url": "https://www.linkedin.com/groups/2642596"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQGH4-HKxnworg/group-logo_image-shrink_92x92/0/1630998843513?e=1647594000&v=beta&t=SvNvrCcCnjiGYaE74iqeS0OG_Bt150BXIdpeadL2F64",
+            "name": "Automation and Control Engineers with PLC/SCADA/DCS/Drives/Panels/Robotics",
+            "url": "https://www.linkedin.com/groups/882177"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQHU5yDfOKjoJg/group-logo_image-shrink_200x200/0/1631358309012?e=1647594000&v=beta&t=mLJwW33J_s6KhJCTqlwHeCIt0o6WN5YhV7lj1G7jILE",
+            "name": "Personal Robotics Group",
+            "url": "https://www.linkedin.com/groups/130003"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQHNiaexif9p5A/group-logo_image-shrink_92x92/0/1525133686540?e=1647594000&v=beta&t=OYAYaiyYDpuG1-5sy2WtPOoBeyDS7i-3ElQCMTEAs0I",
+            "name": "Silicon Valley Robotics",
+            "url": "https://www.linkedin.com/groups/1824652"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQHLjstykK1CLw/group-logo_image-shrink_92x92/0/1631002252183?e=1647594000&v=beta&t=r4cwhrcHH7cZc_Q_i65Gld-jvz81x92lPOQo_nQyjXA",
+            "name": "Artificial Intelligence, Deep Learning, Machine Learning",
+            "url": "https://www.linkedin.com/groups/1814785"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C5607AQEE-HPcQjonOA/group-logo_image-shrink_92x92/0/1631000706585?e=1647594000&v=beta&t=xfLDAOmHAwZVGVWbytm_0NMsbpDYyvY6ah8-EjOza-A",
+            "name": "KUKA Roboter users",
+            "url": "https://www.linkedin.com/groups/1980420"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQH2q7TKmljeSw/group-logo_image-shrink_200x200/0/1631354674766?e=1647594000&v=beta&t=btVpLSvXJkWKCdpSBQqUzjVj2r-SWwUjGjAU3DcDOtM",
+            "name": "Big Data, Analytics, Business Intelligence & Visualization Experts Community",
+            "url": "https://www.linkedin.com/groups/23006"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4E07AQFky-wEXyFcSA/group-logo_image-shrink_200x200/0/1631365799248?e=1647594000&v=beta&t=KDbGjIEVWodAiv9qPDwSsFsm_rkVa6oRk4LK8tymweY",
+            "name": "Robot Operating System",
+            "url": "https://www.linkedin.com/groups/2120001"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D07AQHwzHzy4qrgaw/group-logo_image-shrink_92x92/0/1631004564272?e=1647594000&v=beta&t=cQoacLS8pwyjv_N7po0DxR0IdI70U2aJudkGT59bMFo",
+            "name": "Python Developers Community (moderated)",
+            "url": "https://www.linkedin.com/groups/25827"
+        },
+        {
+            "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C5607AQEx3Bz-AJNSbg/group-logo_image-shrink_200x200/0/1631434468421?e=1647594000&v=beta&t=gys2EIcpWULy37XGzThfLA8gDIxqJgLCV5e-cfnmWgc",
+            "name": "Robotics",
+            "url": "https://www.linkedin.com/groups/2257665"
+        }
+    ],
+    "skills": [],
+    "inferred_salary": {
+        "min": null,
+        "max": null
+    },
+    "gender": null,
+    "birth_date": null,
+    "industry": null,
+    "extra": {
+        "github_profile_id": null,
+        "twitter_profile_id": null,
+        "facebook_profile_id": null
+    },
+    "interests": [],
+    "personal_emails": [],
+    "personal_numbers": []
+}
