@@ -2,7 +2,7 @@ import requests
 import os
 
 
-def scrape_linkedin_profile(url : str, *, mock : bool = False) -> requests.models.Response:
+def scrape_linkedin_profile(url : str, *, mock : bool = False) -> dict:
     """Scrapes a LinkedIn profile and returns the data. 
 
     Args:
@@ -10,7 +10,7 @@ def scrape_linkedin_profile(url : str, *, mock : bool = False) -> requests.model
         mock (bool): If True, the function will return a mock response.
 
     Returns:
-        requests.models.Response: The response object from the request. 
+        dict: The scraped LinkedIn profile data.
     """
 
     print(f"Scraping LinkedIn profile: {url}")
